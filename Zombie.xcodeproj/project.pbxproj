@@ -16,14 +16,33 @@
 		CEA9E0FD19788F8B005512D7 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9E0FC19788F8B005512D7 /* RLAppDelegate.m */; };
 		CEA9E10019788F8B005512D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA9E0FE19788F8B005512D7 /* Main.storyboard */; };
 		CEA9E10319788F8B005512D7 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9E10219788F8B005512D7 /* RLViewController.m */; };
-		CEA9E10619788F8B005512D7 /* RLMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9E10519788F8B005512D7 /* RLMyScene.m */; };
-		CEA9E10819788F8B005512D7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA9E10719788F8B005512D7 /* Spaceship.png */; };
 		CEA9E10A19788F8B005512D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA9E10919788F8B005512D7 /* Images.xcassets */; };
 		CEA9E11119788F8B005512D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9E11019788F8B005512D7 /* XCTest.framework */; };
 		CEA9E11219788F8B005512D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9E0EA19788F8B005512D7 /* Foundation.framework */; };
 		CEA9E11319788F8B005512D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9E0EE19788F8B005512D7 /* UIKit.framework */; };
 		CEA9E11B19788F8C005512D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA9E11919788F8C005512D7 /* InfoPlist.strings */; };
 		CEA9E11D19788F8C005512D7 /* ZombieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9E11C19788F8C005512D7 /* ZombieTests.m */; };
+		CEA9E1281978921D005512D7 /* RLTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9E1271978921D005512D7 /* RLTitleScene.m */; };
+		CEC0C5FA197C631A00AE278E /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEC0C5F8197C631A00AE278E /* MyParticle.sks */; };
+		CEC0C5FB197C631A00AE278E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0C5F9197C631A00AE278E /* spark.png */; };
+		CEC0C5FE197C69DA00AE278E /* RLHudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C5FD197C69DA00AE278E /* RLHudNode.m */; };
+		CEC0C601197C871100AE278E /* RLGameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C600197C871100AE278E /* RLGameOverNode.m */; };
+		CEF151821978976700068978 /* RLGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF151811978976700068978 /* RLGamePlayScene.m */; };
+		CEF1518419789A4E00068978 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CEF1518319789A4E00068978 /* Sprites.atlas */; };
+		CEF34CCD1978BEE100871778 /* RLMachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CCC1978BEE100871778 /* RLMachineNode.m */; };
+		CEF34CD01978C29E00871778 /* RLZombieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CCF1978C29E00871778 /* RLZombieNode.m */; };
+		CEF34CD31978D38900871778 /* RLProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CD21978D38900871778 /* RLProjectileNode.m */; };
+		CEF34CD7197959CF00871778 /* RLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CD6197959CF00871778 /* RLUtil.m */; };
+		CEF34CDA1979853F00871778 /* RLDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CD91979853F00871778 /* RLDogNode.m */; };
+		CEF34CDD1979C9AC00871778 /* RLGroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF34CDC1979C9AC00871778 /* RLGroundNode.m */; };
+		CEF34CE4197B44B800871778 /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CE3197B44B800871778 /* PressStart.caf */; };
+		CEF34CE6197B451A00871778 /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CE5197B451A00871778 /* Damage.caf */; };
+		CEF34CE8197B452100871778 /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CE7197B452100871778 /* Explode.caf */; };
+		CEF34CEA197B452B00871778 /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CE9197B452B00871778 /* Laser.caf */; };
+		CEF34CEE197B461B00871778 /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CEB197B461A00871778 /* GameOver.mp3 */; };
+		CEF34CEF197B461B00871778 /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CEC197B461B00871778 /* Gameplay.mp3 */; };
+		CEF34CF0197B461B00871778 /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF34CED197B461B00871778 /* StartScreen.mp3 */; };
+		CEF34CF2197B46BA00871778 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF34CF1197B46BA00871778 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +70,43 @@
 		CEA9E0FF19788F8B005512D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA9E10119788F8B005512D7 /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
 		CEA9E10219788F8B005512D7 /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
-		CEA9E10419788F8B005512D7 /* RLMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMyScene.h; sourceTree = "<group>"; };
-		CEA9E10519788F8B005512D7 /* RLMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMyScene.m; sourceTree = "<group>"; };
-		CEA9E10719788F8B005512D7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		CEA9E10919788F8B005512D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEA9E10F19788F8B005512D7 /* ZombieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA9E11019788F8B005512D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CEA9E11819788F8C005512D7 /* ZombieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZombieTests-Info.plist"; sourceTree = "<group>"; };
 		CEA9E11A19788F8C005512D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEA9E11C19788F8C005512D7 /* ZombieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZombieTests.m; sourceTree = "<group>"; };
+		CEA9E1261978921D005512D7 /* RLTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLTitleScene.h; sourceTree = "<group>"; };
+		CEA9E1271978921D005512D7 /* RLTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLTitleScene.m; sourceTree = "<group>"; };
+		CEC0C5F8197C631A00AE278E /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		CEC0C5F9197C631A00AE278E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CEC0C5FC197C69DA00AE278E /* RLHudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLHudNode.h; sourceTree = "<group>"; };
+		CEC0C5FD197C69DA00AE278E /* RLHudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLHudNode.m; sourceTree = "<group>"; };
+		CEC0C5FF197C871100AE278E /* RLGameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLGameOverNode.h; sourceTree = "<group>"; };
+		CEC0C600197C871100AE278E /* RLGameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLGameOverNode.m; sourceTree = "<group>"; };
+		CEF151801978976700068978 /* RLGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLGamePlayScene.h; sourceTree = "<group>"; };
+		CEF151811978976700068978 /* RLGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLGamePlayScene.m; sourceTree = "<group>"; };
+		CEF1518319789A4E00068978 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		CEF34CCB1978BEE100871778 /* RLMachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMachineNode.h; sourceTree = "<group>"; };
+		CEF34CCC1978BEE100871778 /* RLMachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMachineNode.m; sourceTree = "<group>"; };
+		CEF34CCE1978C29E00871778 /* RLZombieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLZombieNode.h; sourceTree = "<group>"; };
+		CEF34CCF1978C29E00871778 /* RLZombieNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLZombieNode.m; sourceTree = "<group>"; };
+		CEF34CD11978D38900871778 /* RLProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLProjectileNode.h; sourceTree = "<group>"; };
+		CEF34CD21978D38900871778 /* RLProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLProjectileNode.m; sourceTree = "<group>"; };
+		CEF34CD5197959CF00871778 /* RLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLUtil.h; sourceTree = "<group>"; };
+		CEF34CD6197959CF00871778 /* RLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLUtil.m; sourceTree = "<group>"; };
+		CEF34CD81979853F00871778 /* RLDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDogNode.h; sourceTree = "<group>"; };
+		CEF34CD91979853F00871778 /* RLDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDogNode.m; sourceTree = "<group>"; };
+		CEF34CDB1979C9AC00871778 /* RLGroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLGroundNode.h; sourceTree = "<group>"; };
+		CEF34CDC1979C9AC00871778 /* RLGroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLGroundNode.m; sourceTree = "<group>"; };
+		CEF34CE3197B44B800871778 /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		CEF34CE5197B451A00871778 /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		CEF34CE7197B452100871778 /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		CEF34CE9197B452B00871778 /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		CEF34CEB197B461A00871778 /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		CEF34CEC197B461B00871778 /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		CEF34CED197B461B00871778 /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+		CEF34CF1197B46BA00871778 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF34CF2197B46BA00871778 /* AVFoundation.framework in Frameworks */,
 				CEA9E0ED19788F8B005512D7 /* CoreGraphics.framework in Frameworks */,
 				CEA9E0EF19788F8B005512D7 /* UIKit.framework in Frameworks */,
 				CEA9E0F119788F8B005512D7 /* SpriteKit.framework in Frameworks */,
@@ -109,6 +157,7 @@
 		CEA9E0E919788F8B005512D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEF34CF1197B46BA00871778 /* AVFoundation.framework */,
 				CEA9E0EA19788F8B005512D7 /* Foundation.framework */,
 				CEA9E0EC19788F8B005512D7 /* CoreGraphics.framework */,
 				CEA9E0EE19788F8B005512D7 /* UIKit.framework */,
@@ -121,15 +170,31 @@
 		CEA9E0F219788F8B005512D7 /* Zombie */ = {
 			isa = PBXGroup;
 			children = (
-				CEA9E0FB19788F8B005512D7 /* RLAppDelegate.h */,
-				CEA9E0FC19788F8B005512D7 /* RLAppDelegate.m */,
-				CEA9E0FE19788F8B005512D7 /* Main.storyboard */,
-				CEA9E10119788F8B005512D7 /* RLViewController.h */,
-				CEA9E10219788F8B005512D7 /* RLViewController.m */,
-				CEA9E10419788F8B005512D7 /* RLMyScene.h */,
-				CEA9E10519788F8B005512D7 /* RLMyScene.m */,
-				CEA9E10719788F8B005512D7 /* Spaceship.png */,
+				CEA9E1261978921D005512D7 /* RLTitleScene.h */,
+				CEA9E1271978921D005512D7 /* RLTitleScene.m */,
+				CEF151801978976700068978 /* RLGamePlayScene.h */,
+				CEF151811978976700068978 /* RLGamePlayScene.m */,
+				CEC0C5FC197C69DA00AE278E /* RLHudNode.h */,
+				CEC0C5FD197C69DA00AE278E /* RLHudNode.m */,
+				CEF34CCE1978C29E00871778 /* RLZombieNode.h */,
+				CEF34CCF1978C29E00871778 /* RLZombieNode.m */,
+				CEF34CD11978D38900871778 /* RLProjectileNode.h */,
+				CEF34CD21978D38900871778 /* RLProjectileNode.m */,
+				CEF34CCB1978BEE100871778 /* RLMachineNode.h */,
+				CEF34CCC1978BEE100871778 /* RLMachineNode.m */,
+				CEF34CD81979853F00871778 /* RLDogNode.h */,
+				CEF34CD91979853F00871778 /* RLDogNode.m */,
+				CEF34CDB1979C9AC00871778 /* RLGroundNode.h */,
+				CEF34CDC1979C9AC00871778 /* RLGroundNode.m */,
+				CEF34CD5197959CF00871778 /* RLUtil.h */,
+				CEF34CD6197959CF00871778 /* RLUtil.m */,
+				CEC0C5FF197C871100AE278E /* RLGameOverNode.h */,
+				CEC0C600197C871100AE278E /* RLGameOverNode.m */,
 				CEA9E10919788F8B005512D7 /* Images.xcassets */,
+				CEC0C5F8197C631A00AE278E /* MyParticle.sks */,
+				CEC0C5F9197C631A00AE278E /* spark.png */,
+				CEF34CDE197B3E7E00871778 /* Sounds */,
+				CEF1518319789A4E00068978 /* Sprites.atlas */,
 				CEA9E0F319788F8B005512D7 /* Supporting Files */,
 			);
 			path = Zombie;
@@ -138,6 +203,11 @@
 		CEA9E0F319788F8B005512D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEA9E0FB19788F8B005512D7 /* RLAppDelegate.h */,
+				CEA9E0FC19788F8B005512D7 /* RLAppDelegate.m */,
+				CEA9E0FE19788F8B005512D7 /* Main.storyboard */,
+				CEA9E10119788F8B005512D7 /* RLViewController.h */,
+				CEA9E10219788F8B005512D7 /* RLViewController.m */,
 				CEA9E0F419788F8B005512D7 /* Zombie-Info.plist */,
 				CEA9E0F519788F8B005512D7 /* InfoPlist.strings */,
 				CEA9E0F819788F8B005512D7 /* main.m */,
@@ -162,6 +232,20 @@
 				CEA9E11919788F8C005512D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF34CDE197B3E7E00871778 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CEF34CEB197B461A00871778 /* GameOver.mp3 */,
+				CEF34CEC197B461B00871778 /* Gameplay.mp3 */,
+				CEF34CED197B461B00871778 /* StartScreen.mp3 */,
+				CEF34CE9197B452B00871778 /* Laser.caf */,
+				CEF34CE7197B452100871778 /* Explode.caf */,
+				CEF34CE5197B451A00871778 /* Damage.caf */,
+				CEF34CE3197B44B800871778 /* PressStart.caf */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +325,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF34CEF197B461B00871778 /* Gameplay.mp3 in Resources */,
+				CEF34CEA197B452B00871778 /* Laser.caf in Resources */,
 				CEA9E0F719788F8B005512D7 /* InfoPlist.strings in Resources */,
 				CEA9E10A19788F8B005512D7 /* Images.xcassets in Resources */,
-				CEA9E10819788F8B005512D7 /* Spaceship.png in Resources */,
+				CEF1518419789A4E00068978 /* Sprites.atlas in Resources */,
+				CEC0C5FB197C631A00AE278E /* spark.png in Resources */,
+				CEF34CEE197B461B00871778 /* GameOver.mp3 in Resources */,
+				CEF34CE6197B451A00871778 /* Damage.caf in Resources */,
+				CEC0C5FA197C631A00AE278E /* MyParticle.sks in Resources */,
+				CEF34CE4197B44B800871778 /* PressStart.caf in Resources */,
 				CEA9E10019788F8B005512D7 /* Main.storyboard in Resources */,
+				CEF34CF0197B461B00871778 /* StartScreen.mp3 in Resources */,
+				CEF34CE8197B452100871778 /* Explode.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA9E10619788F8B005512D7 /* RLMyScene.m in Sources */,
+				CEF34CDA1979853F00871778 /* RLDogNode.m in Sources */,
+				CEF34CDD1979C9AC00871778 /* RLGroundNode.m in Sources */,
 				CEA9E0FD19788F8B005512D7 /* RLAppDelegate.m in Sources */,
 				CEA9E0F919788F8B005512D7 /* main.m in Sources */,
+				CEF34CD7197959CF00871778 /* RLUtil.m in Sources */,
+				CEF34CD31978D38900871778 /* RLProjectileNode.m in Sources */,
+				CEA9E1281978921D005512D7 /* RLTitleScene.m in Sources */,
+				CEC0C601197C871100AE278E /* RLGameOverNode.m in Sources */,
+				CEF34CCD1978BEE100871778 /* RLMachineNode.m in Sources */,
+				CEF34CD01978C29E00871778 /* RLZombieNode.m in Sources */,
+				CEF151821978976700068978 /* RLGamePlayScene.m in Sources */,
 				CEA9E10319788F8B005512D7 /* RLViewController.m in Sources */,
+				CEC0C5FE197C69DA00AE278E /* RLHudNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +575,7 @@
 				CEA9E12219788F8C005512D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA9E12319788F8C005512D7 /* Build configuration list for PBXNativeTarget "ZombieTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +584,7 @@
 				CEA9E12519788F8C005512D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
